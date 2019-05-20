@@ -1,0 +1,14 @@
+language:
+  - go
+
+go:
+  - "1.11.5"
+
+before_script:
+    - go get github.com/gin-gonic/gin
+    - go get github.com/ipipdotnet/ipdb-go
+
+script:
+  - go get -v
+  - go test -v ./...
+  - bash run_test_case.sh
