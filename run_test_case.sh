@@ -10,7 +10,7 @@ make build
 # check service avaiable
 RESPONSE=`curl -Ss "http://localhost:8080/ping"`
 if [ "$RESPONSE" != "pong" ];then
-    echo "NOT EQUAL"
+    #echo "NOT EQUAL"
     exit 1
 fi
 
