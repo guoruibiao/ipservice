@@ -2,10 +2,6 @@ package utils
 
 import (
 	"testing"
-	"github.com/guoruibiao/ipservice/constants"
-	"fmt"
-	"log"
-	"github.com/ipipdotnet/ipdb-go"
 )
 
 func TestGetOfficialData(t *testing.T) {
