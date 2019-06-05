@@ -5,6 +5,7 @@ go:
   - "1.11.5"
 
 before_script:
+    - go get github.com/pkg/errors
     - go get github.com/gin-gonic/gin
     - go get github.com/ipipdotnet/ipdb-go
 
