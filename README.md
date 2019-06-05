@@ -1,6 +1,5 @@
 # ipservice
-
-![ipservice](https://travis-ci.org/guoruibiao/ipservice.svg?branch=master)
+[![ipservice](https://travis-ci.org/guoruibiao/ipservice.svg?branch=master)](https://travis-ci.org/guoruibiao/ipservice)
 
 A simple demo for deploy application with docker swarm.
 
